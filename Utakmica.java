@@ -13,9 +13,9 @@ public class Utakmica {
 
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd.MM.yyyy. HH:mm:ss");
         LocalDateTime now = LocalDateTime.now();
-        System.out.println("Utakmica na dan: " + dtf.format(now));
+        System.out.println("Vrijeme utakmice: " + dtf.format(now));
 
-        Thread.sleep(1500);
+        Thread.sleep(3000);
 
         List<String> esp = new ArrayList<>();
         esp.add("Barcelona");
@@ -41,10 +41,10 @@ public class Utakmica {
         Thread.sleep(3000);
 
         Random rn = new Random();
-        int x = rn.nextInt(6);
-        int y = rn.nextInt(6);
+        int x = rn.nextInt(5);
+        int y = rn.nextInt(5);
         System.out.println(x + " : " + y);
-        Thread.sleep(3000);
+        Thread.sleep(5000);
 
         if(x>y){
             System.out.println("POBJEDNIK: " + esp.get(index));
@@ -53,18 +53,8 @@ public class Utakmica {
         }if(x==y){
             System.out.println("IZJEDNAČENO");
         }
-            System.out.println("***********************");
-        }
-
-
-
+ 
     }
-
-
-
-
-
-
 
 }
 
