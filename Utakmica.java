@@ -1,4 +1,4 @@
-package PackageDjurdjevic;
+
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -31,30 +31,32 @@ public class Utakmica {
         eng.add("Chelsea");
         eng.add("Manchester United");
 
-        for(int i = 0; i<1; i++){
+        for (int i = 0; i < 1; i++) {
 
 
-        int index = random.nextInt(esp.size());
-        int index2 = random.nextInt(eng.size());
-        System.out.println(esp.get(index) + " : " + eng.get(index2));
+            int index = random.nextInt(esp.size());
+            int index2 = random.nextInt(eng.size());
+            System.out.println(esp.get(index) + " : " + eng.get(index2));
 
-        Thread.sleep(3000);
+            Thread.sleep(3000);
 
-        Random rn = new Random();
-        int x = rn.nextInt(5);
-        int y = rn.nextInt(5);
-        System.out.println(x + " : " + y);
-        Thread.sleep(5000);
+            Random rn = new Random();
+            int x = rn.nextInt(5);
+            int y = rn.nextInt(5);
+            System.out.println(x + " : " + y);
+            Thread.sleep(5000);
 
-        if(x>y){
-            System.out.println("POBJEDNIK: " + esp.get(index));
-        }if(x<y){
-            System.out.println("POBJEDNIK: " + eng.get(index2));
-        }if(x==y){
-            System.out.println("IZJEDNAČENO");
+            if (x > y) {
+                System.out.println("POBJEDNIK: " + esp.get(index));
+            }
+            if (x < y) {
+                System.out.println("POBJEDNIK: " + eng.get(index2));
+            }
+            if (x == y) {
+                System.out.println("IZJEDNAČENO");
+            }
+
         }
- 
+
     }
-
 }
-
