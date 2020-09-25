@@ -1,5 +1,3 @@
-package PackageDjurdjevic;
-
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
@@ -23,6 +21,8 @@ public class Utakmica {
         esp.add("Villarreal");
         esp.add("Atletico Madrid");
         esp.add("Sevilla");
+        esp.add("Getafe");
+        esp.add("Real Sociedad");
 
         List<String> eng = new ArrayList<>();
         eng.add("Manchester City");
@@ -30,6 +30,8 @@ public class Utakmica {
         eng.add("Liverpool");
         eng.add("Chelsea");
         eng.add("Manchester United");
+        eng.add("Newcastle");
+        eng.add("Tottenham");
 
         for(int i = 0; i<1; i++){
 
@@ -41,8 +43,8 @@ public class Utakmica {
         Thread.sleep(3000);
 
         Random rn = new Random();
-        int x = rn.nextInt(5);
-        int y = rn.nextInt(5);
+        int x = rn.nextInt(6);
+        int y = rn.nextInt(6);
         System.out.println(x + " : " + y);
         Thread.sleep(5000);
 
@@ -53,8 +55,10 @@ public class Utakmica {
         }if(x==y){
             System.out.println("IZJEDNAČENO");
         }
+
  
     }
 
+}
 }
 
