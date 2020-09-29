@@ -16,22 +16,50 @@ public class Utakmica {
         Thread.sleep(2000);
 
         List<String> esp = new ArrayList<>();
-        esp.add("Barcelona");
-        esp.add("Real Madrid");
-        esp.add("Villarreal");
+        esp.add("Alaves");
+        esp.add("Athletic Bilbao");
         esp.add("Atletico Madrid");
-        esp.add("Sevilla");
+        esp.add("Barcelona");
+        esp.add("Cadiz");
+        esp.add("Celta");
+        esp.add("Eibar");
+        esp.add("Elche");
+        esp.add("Granada");
         esp.add("Getafe");
+        esp.add("Huesca");
+        esp.add("Levante");
+        esp.add("Osasuna");
+        esp.add("Real Betis");
+        esp.add("Real Madrid");
         esp.add("Real Sociedad");
+        esp.add("Sevilla");
+        esp.add("Valencia");
+        esp.add("Valladolid");
+        esp.add("Villarreal");
+
 
         List<String> eng = new ArrayList<>();
-        eng.add("Manchester City");
+        eng.add("Aston Villa");
         eng.add("Arsenal");
-        eng.add("Liverpool");
+        eng.add("Brighton");
+        eng.add("Burnley");
         eng.add("Chelsea");
+        eng.add("Crystal Palace");
+        eng.add("Everton");
+        eng.add("Fulham");
+        eng.add("Leeds");
+        eng.add("Leicester");
+        eng.add("Liverpool");
+        eng.add("Manchester City");
         eng.add("Manchester United");
         eng.add("Newcastle");
+        eng.add("Sheffield United");
+        eng.add("Southampton");
         eng.add("Tottenham");
+        eng.add("WBA");
+        eng.add("West Ham");
+        eng.add("Wolverhampton");
+
 
         for(int i = 0; i<1; i++){
 
@@ -82,7 +110,7 @@ public class Utakmica {
 
             Thread.sleep(1000);
             System.out.println(" ");
-            System.err.println("UKUPAN REZULTAT:");
+            System.err.println("KONAČAN REZULTAT:");
             Thread.sleep(1000);
             System.out.println(esp.get(index) + " : " + eng.get(index2));
             Thread.sleep(1000);
